@@ -7,6 +7,8 @@ import {
 import Home  from "./Home/Home";
 import About from "./About/About";
 import { NavBar } from './Navbar/Navbar';
+import Education from './Education/Education';
+import Work from './Work/Work';
 
 function App() {
   return (
@@ -21,24 +23,24 @@ function App() {
             <Route path="/home">
               <Home />
             </Route>
-            <Route path="/about">
-              <About />
-            </Route>
             <Route path="/education">
-              <About />
+              <Education />
             </Route>
             <Route path="/work">
-              <About />
+              <Work />
             </Route>
             <Route path="/github">
+              <About />
+            </Route>
+            <Route path="/about">
               <About />
             </Route>
           </Switch>
         </div>
       </Router>
       <br/>
-      <h3>Hi.. Welcome to <span className="c-red">pareek</span>sandeep.com!</h3>
-      <h6> Work is in progress</h6>
+      {/* <h3>Hi.. Welcome to <span className="c-red">pareek</span>sandeep.in!</h3>
+      <h6> Work is in progress</h6> */}
     </div>
   );
 }
