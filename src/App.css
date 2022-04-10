@@ -8,3 +8,50 @@
 .c-red {
   color: red;
 }
+
+.home-image {
+  background-image: url(./resources/Sandeep-image.JPG);
+  background-size: cover;
+  background-position: top;
+  min-height: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  opacity: .5;
+}
+
+.box {
+  margin-left: 250px;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+}
+
+.linkedin , .github {
+  display:inline-block;
+  }
+
+#redbox { background: grey; }
+
+.gh-icon {
+  line-height: 20px;
+  vertical-align: center;
+  background: url('./resources/github.png');
+  background-size: contain;
+}
+.li-icon {
+  line-height: 20px;
+  vertical-align: center;
+  background: url('./resources/linkedin.png');
+  background-size: contain;
+}
