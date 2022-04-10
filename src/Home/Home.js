@@ -6,7 +6,6 @@ import Col from 'react-bootstrap/Col'
 
 function Home() {
   return (
-
     <div>
       <Container className="home-image">
         <br/>
