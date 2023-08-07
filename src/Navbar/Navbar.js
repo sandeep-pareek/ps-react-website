@@ -6,7 +6,6 @@ export const NavBar = () => {
 
         return (
             <div>
-                <div className="row">
                     <div className="col-md-12">
                             <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
                             <Container>
@@ -18,14 +17,12 @@ export const NavBar = () => {
                                     <Nav.Link href="/education">Education</Nav.Link>
                                     <Nav.Link href="/work">Work</Nav.Link>
                                     <Nav.Link href="/github">Github</Nav.Link>
-                                    <Nav.Link href="/about">About</Nav.Link>
                                     </Nav>
                                 </Navbar.Collapse>
                                 
                             </Container>
                             </Navbar>
                     </div>
-                </div>
             </div>
         )
 };

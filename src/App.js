@@ -9,6 +9,7 @@ import About from "./About/About";
 import { NavBar } from './Navbar/Navbar';
 import Education from './Education/Education';
 import Work from './Work/Work';
+import Github from './Github/Github';
 
 function App() {
   return (
@@ -30,10 +31,7 @@ function App() {
               <Work />
             </Route>
             <Route path="/github">
-              <About />
-            </Route>
-            <Route path="/about">
-              <About />
+              <Github />
             </Route>
           </Switch>
         </div>
