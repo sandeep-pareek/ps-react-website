@@ -17,19 +17,19 @@ function Github() {
 
     return(
         <div className="repos-container">
-      {
-        repos.map((repo) => {
-            return (
-                <div key={repo.id}>
-                    <br/>
-                <h5>{repo.name}</h5>
-                <h6><p>{repo.full_name}</p></h6>
-                </div>
-            );
+            {
+                repos.map((repo) => {
+                    return (
+                        <div key={repo.id}>
+                            <br/>
+                        <h5>{repo.name}</h5>
+                        <h6><p>{repo.full_name}</p></h6>
+                        </div>
+                    );
+                    }
+                )
             }
-        )
-      }
-   </div>
+        </div>
     )
 }
 
