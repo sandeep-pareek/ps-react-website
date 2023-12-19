@@ -5,6 +5,10 @@
   color: white;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .c-red {
   color: red;
 }
