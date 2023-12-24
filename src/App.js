@@ -5,7 +5,7 @@ import {
   Route
 } from "react-router-dom";
 import Home  from "./Home/Home";
-import About from "./About/About";
+import Dev from "./Dev/Dev";
 import { NavBar } from './Navbar/Navbar';
 import Education from './Education/Education';
 import Work from './Work/Work';
@@ -29,6 +29,9 @@ function App() {
             </Route>
             <Route path="/work">
               <Work />
+            </Route>
+            <Route path="/dev">
+              <Dev />
             </Route>
             <Route path="/github">
               <Github />

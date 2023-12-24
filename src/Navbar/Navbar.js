@@ -16,6 +16,7 @@ export const NavBar = () => {
                                     <Nav.Link href="/">Home</Nav.Link>                                    
                                     <Nav.Link href="/education">Education</Nav.Link>
                                     <Nav.Link href="/work">Work</Nav.Link>
+                                    <Nav.Link href="/dev">Dev</Nav.Link>
                                     <Nav.Link href="/github">Github</Nav.Link>
                                     </Nav>
                                 </Navbar.Collapse>
